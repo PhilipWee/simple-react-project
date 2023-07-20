@@ -1,6 +1,21 @@
+interface MyNiceLittleComponentProps {
+  text?: string;
+  subText?: string;
+}
+
+function MyNiceLittleComponent(props: MyNiceLittleComponentProps) {
+  return (
+    <div>
+      <p>Below is the adjustable text</p>
+      <p>{props.text}</p>
+      <p className="text-sm">{props.subText}</p>
+    </div>
+  );
+}
+
 function App() {
   return (
-    <div className="relative flex min-h-screen flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12">
+    <div className="w-[1080px] relative flex min-h-screen flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12">
       <img
         src="/img/beams.jpg"
         alt=""
@@ -17,6 +32,11 @@ function App() {
                 An advanced online playground for Tailwind CSS, including
                 support for things like:
               </p>
+              <MyNiceLittleComponent text="So Brave" />
+              <MyNiceLittleComponent
+                text="So Brave"
+                subText="This should be small"
+              />
               <ul className="space-y-4">
                 <li className="flex items-center">
                   <svg
