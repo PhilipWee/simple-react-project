@@ -35,7 +35,7 @@ function App() {
               <MyNiceLittleComponent text="So Brave" />
               <MyNiceLittleComponent
                 text="So Brave"
-                subText="This should be small"
+                subText="Hi stephen"
               />
               <ul className="space-y-4">
                 <li className="flex items-center">
