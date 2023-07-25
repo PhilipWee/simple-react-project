@@ -34,7 +34,7 @@ function App() {
               </p>
               <MyNiceLittleComponent text="So Brave" />
               <MyNiceLittleComponent
-                text="So Brave"
+                text="So Brave so real"
                 subText="This should be small"
               />
               <ul className="space-y-4">
