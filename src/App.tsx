@@ -28,11 +28,10 @@ function App() {
           <img src="/img/logo.svg" className="h-6" alt="Tailwind Play" />
           <div className="divide-y divide-gray-300/50">
             <div className="space-y-6 py-8 text-base leading-7 text-gray-600">
-              <p>
-                An advanced online playground for Tailwind CSS, including
-                support for things like:
-              </p>
-              <MyNiceLittleComponent text="So Brave" />
+              <p>An advanced online playground for Tailwind CSS, including support for things like:
+
+              Straight and gay</p>
+              <MyNiceLittleComponent text="So Brave and real" />
               <MyNiceLittleComponent
                 text="So Brave"
                 subText="This should be small"
